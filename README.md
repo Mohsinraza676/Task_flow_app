@@ -1,7 +1,7 @@
 📝 TaskFlow–Week 2 Internship Task
 
 📌 Overview
-Developed for the Flutter Development Internship (Week 1). This project demonstrates **State Management** using `setState` and **Local Data Persistence** using `SharedPreferences`.
+Developed for the Flutter Development Internship. This project demonstrates **State Management** using `setState` and **Local Data Persistence** using `SharedPreferences`.
 
 ✨ Features
 - 🔢 **Persistent Counter:** A counter that saves its state even after the app is closed and reopened.
