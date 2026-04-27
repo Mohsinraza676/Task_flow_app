@@ -1,0 +1,31 @@
+import 'package:flutter/material.dart';
+import 'screens/home_screen.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'TaskFlow Pro',
+      theme: ThemeData(
+        brightness: Brightness.dark,
+        scaffoldBackgroundColor: const Color(0xFF121212),
+        primaryColor: const Color(0xFFFC5200),
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: const Color(0xFFFC5200),
+          brightness: Brightness.dark,
+          primary: const Color(0xFFFC5200),
+        ),
+        useMaterial3: true,
+        fontFamily: 'Roboto', // Standard modern font
+      ),
+      home: const HomeScreen(),
+    );
+  }
+}
