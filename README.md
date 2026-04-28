@@ -1,7 +1,3 @@
-
-
-https://github.com/user-attachments/assets/5deb5761-b26d-4e13-9a7f-aa7509f53f8c
-
 📝 TaskFlow–Week 2 Internship Task
 
 📌 Overview
